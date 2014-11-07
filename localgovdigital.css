@@ -1,0 +1,81 @@
+body {
+  font-family: Oxygen, sans-serif;
+  font-size: 16px;
+}
+
+  .lead
+  {
+    font-weight: 700;
+  }
+
+.navbar-head {
+  /*border-bottom: 10px solid #199ad2;*/
+}
+
+.navbar-head .nav > li > a:hover,
+.navbar-head .nav > li > a:focus,
+.navbar-head .nav > li.active > a
+{
+  color: #fff;
+}
+
+.navbar-head .nav > li > a.localgovcamp:hover,
+.navbar-head .nav > li > a.localgovcamp:focus,
+.localgovcamp .navbar-head .nav > li.active
+{
+  background: #34ab49;
+}
+
+.navbar-head .nav > li > a.makers:hover,
+.navbar-head .nav > li > a.makers:focus,
+.makers .navbar-head .nav > li.active
+{
+  background: #1799d1;
+}
+
+.navbar-head .nav > li > a.ldbytes:hover,
+.navbar-head .nav > li > a.ldbytes:focus
+{
+  background: #d42128;
+}
+
+.navbar-head .nav > li > a.lgvoice:hover,
+.navbar-head .nav > li > a.lgvoice:focus
+{
+  background: #6b4a9e;
+}
+
+footer {
+  padding-top: 80px;
+  padding-bottom: 90px;
+  color: #555;
+  background: #f2f5f3;
+  margin-top: 50px;
+}
+
+.jumbotron
+{
+  padding: 0;
+}
+
+.makers .jumbotron
+{
+  background: #199ad2;
+  padding: 0;
+}
+
+.localgovcamp .jumbotron
+{
+  background: #34ab49;
+  padding: 0;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  /* Remove the padding we set earlier */
+  .header,
+  .footer {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
